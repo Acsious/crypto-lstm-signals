@@ -1,6 +1,6 @@
 from data_module import load_and_preprocess_data
-from lstm_price_multioutput_module import generate_multioutput_predictions
-from strategy_multioutput_module import find_trade_points
+from lstm_module import generate_multioutput_predictions
+from strategy_module import find_trade_points
 from execution_module import send_telegram_signal, send_telegram_forecast
 from monitoring_module import log_signal, log_system_event
 from datetime import datetime, timedelta
