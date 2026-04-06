@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from lstm_price_multioutput_module import generate_multioutput_predictions
+from lstm_module import generate_multioutput_predictions
 
 def find_trade_points(prices, threshold=0.01):
     minima = []  
