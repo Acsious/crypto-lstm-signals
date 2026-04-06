@@ -2,7 +2,7 @@ import logging
 import json
 from urllib import request, parse
 from datetime import datetime
-from strategy_multioutput_module import find_trade_points
+from strategy_module import find_trade_points
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
